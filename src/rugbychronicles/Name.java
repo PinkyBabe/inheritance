@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package rugbychronicles;
 
 /**
@@ -10,5 +6,9 @@ package rugbychronicles;
  * @author admin
  */
 public class Name {
+    String name;
     
+    Name(String name){
+        this.name = name;
+    }
 }
